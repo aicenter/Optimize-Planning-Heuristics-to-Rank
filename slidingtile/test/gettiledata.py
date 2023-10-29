@@ -1,0 +1,71 @@
+import numpy as np
+
+def get_test_data5():
+    all_states=[]
+    f=open("stile5.txt", "r")
+    array_s=[]
+    duplicate = []
+    index = []
+
+    i=0
+    for line in f:
+        array_s.append([int(x) for x in line.split()])
+        #print(i)
+        if array_s[i] not in duplicate:
+            arr=np.asarray(array_s[i])
+            temp=np.reshape(arr, (5,5))
+            all_states.append(temp)
+            duplicate.append(array_s[i])
+            index.append(i)
+
+        i+=1
+
+    return all_states
+    f.close()
+
+def get_test_data6():
+    all_states=[]
+    f=open("stile6.txt", "r")
+    array_s=[]
+    duplicate = []
+    index = []
+
+    i=0
+    for line in f:
+        array_s.append([int(x) for x in line.split()])
+        #print(i)
+        if array_s[i] not in duplicate:
+            arr=np.asarray(array_s[i])
+            temp=np.reshape(arr, (5,5))
+            all_states.append(temp)
+            duplicate.append(array_s[i])
+            index.append(i)
+
+        i+=1
+
+    return all_states
+    f.close()
+    
+    
+    def get_test_data7():
+    all_states=[]
+    f=open("stile7.txt", "r")
+    array_s=[]
+    duplicate = []
+    index = []
+
+    i=0
+    for line in f:
+        array_s.append([int(x) for x in line.split()])
+        #print(i)
+        if array_s[i] not in duplicate:
+            arr=np.asarray(array_s[i])
+            temp=np.reshape(arr, (5,5))
+            all_states.append(temp)
+            duplicate.append(array_s[i])
+            index.append(i)
+
+        i+=1
+
+    return all_states
+    f.close()

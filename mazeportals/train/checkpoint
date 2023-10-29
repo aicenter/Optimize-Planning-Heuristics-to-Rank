@@ -1,0 +1,2 @@
+model_checkpoint_path: "maze_gbfs_lstar"
+all_model_checkpoint_paths: "maze_gbfs_lstar"
