@@ -3,7 +3,7 @@ Code for NeurIPS 2023 paper Optimize Planning Heuristics to Rank, not to Estimat
 
 This repository contains the grid domains, namely, Sokoban, Maze-with-teleports and Sliding tile. 
 
-For the PDDL domains, unzip NeuroPlanner repository. Alternatively, go to [NeuroPlanner.](https://github.com/pevnak/NeuroPlanner.jl)
+For the PDDL domains, unzip the NeuroPlanner repository. Alternatively, go to [NeuroPlanner.](https://github.com/pevnak/NeuroPlanner.jl)
 
 ---
 Dependencies:
